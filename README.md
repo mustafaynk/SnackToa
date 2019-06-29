@@ -9,7 +9,19 @@ SnackToa customizes the warning messages in your application.
 
 ### Usage
 
-Usage SnacbarFloating in Activity
+Usage Toast
+
+```Java
+SnackToa.toastInfo(MainActivity.this, "Info Toast");
+```
+
+Usage Snackbar
+
+```Java
+SnackToa.snackBarInfo(MainActivity.this, "Info Snackbar");
+```
+
+Usage SnackbarFloating in Activity
 
 ```Java
 SnackToa.snackBarFloating(findViewById(android.R.id.content), MainActivity.this, "Error Snackbar");
