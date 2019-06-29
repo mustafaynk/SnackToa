@@ -62,17 +62,17 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 Download the latest JAR or grab via Maven:
 ```
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 	
-	<dependency>
-	    <groupId>com.github.mustafaynk</groupId>
-	    <artifactId>SnackToa</artifactId>
-	    <version>1.0</version>
-	</dependency>
+<dependency>
+	<groupId>com.github.mustafaynk</groupId>
+	<artifactId>SnackToa</artifactId>
+	<version>1.0</version>
+</dependency>
 ```
 
 or Gradle: 
