@@ -24,7 +24,12 @@ SnackToa.snackBarInfo(MainActivity.this, "Info Snackbar");
 Usage SnackbarFloating in Activity
 
 ```Java
-SnackToa.snackBarFloating(findViewById(android.R.id.content), MainActivity.this, "Error Snackbar");
+SnackToa.snackBarFloating(findViewById(android.R.id.content), MainActivity.this, "Error Snackbar", new SnackToa.snackbarUndoClick() {
+                    @Override
+                    public void onClick(View v) {
+                        SnackToa.toastInfo(MainActivity.this, "Undo Clicked");
+                    }
+                });
 ```
 
 Usage SnackbarFloating in Fragment
@@ -40,7 +45,12 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
         view = inflater.inflate(R.layout.your_layout, container, false);
 		
 		...
-		SnackToa.snackBarFloating(view, getActivity(), "Error Snackbar");
+		SnackToa.snackBarFloating(view, getActivity(), "Error Snackbar", new SnackToa.snackbarUndoClick() {
+                    @Override
+                    public void onClick(View v) {
+                        SnackToa.toastInfo(MainActivity.this, "Undo Clicked");
+                    }
+                });
 		...
 		return view;
 }
