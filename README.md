@@ -7,7 +7,7 @@ SnackToa customizes the warning messages in your application.
 
 ![](https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/snacktoa.gif)
 
-###Usage
+### Usage
 
 Usage SnacbarFloating in Activity
 
@@ -35,7 +35,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container,
 ```
 
 
-###Installation
+### Installation
 
 Download the latest JAR or grab via Maven:
 ```
