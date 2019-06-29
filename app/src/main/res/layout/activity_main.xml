@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_large">
+
+        <Button
+            android:id="@+id/toastError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Toast Error" />
+
+
+        <Button
+            android:id="@+id/toastSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Toast Success" />
+
+
+        <Button
+            android:id="@+id/toastInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Toast Info" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey_500" />
+
+
+        <Button
+            android:id="@+id/snackbarError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Snackbar Error" />
+
+
+        <Button
+            android:id="@+id/snackbarSuccess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Snackbar Success" />
+
+
+        <Button
+            android:id="@+id/snackbarInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Snackbar Info" />
+
+        <Button
+            android:id="@+id/snackbarFloating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="clickMethod"
+            android:text="Snackbar Floating" />
+
+    </LinearLayout>
+
+</LinearLayout>
