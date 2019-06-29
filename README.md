@@ -1,5 +1,5 @@
 # SnackToa
-SnackToa customizes the warning messages in your application.
+SnackToa customizes the Warning, Information and Success messages in your application.
 
 ![](https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/logo.png)
 
