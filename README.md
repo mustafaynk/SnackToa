@@ -90,6 +90,6 @@ allprojects {
 - Add the dependency
 ```
 dependencies {
-	implementation 'com.github.mustafaynk:SnackToa:1.0'
+	implementation 'com.github.mustafaynk:SnackToa:v1.0.0'
 }
 ```
