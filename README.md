@@ -1,4 +1,5 @@
 [![](https://jitpack.io/v/mustafaynk/SnackToa.svg)](https://jitpack.io/#mustafaynk/SnackToa)
+
 # SnackToa
 SnackToa customizes the Warning, Information and Success messages in your application.
 
