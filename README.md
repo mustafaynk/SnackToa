@@ -7,9 +7,6 @@ Show message(Snackbar, Toast) in your application. Customization warning, inform
 
 ![](https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/snacktoa.gif)
 
-<p align="center">
-  <img width="300" height="300" src="https://raw.githubusercontent.com/mustafaynk/todolist/master/appgallery/logo.png">
-</p>
 
 ### Usage
 
