@@ -1,11 +1,15 @@
 # SnackToa
 Show message(Snackbar, Toast) in your application. Customization warning, information and success messages.
 
-![](https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/logo.png)
+<p align="center">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/logo.png">
+</p>
 
 - Preview
 
-![](https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/snacktoa.gif)
+<p align="center">
+  <img width="50%" src="https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/snacktoa.gif">
+</p>
 
 
 ### Usage
@@ -75,8 +79,7 @@ Download the latest JAR or grab via Maven:
 	<version>1.0</version>
 </dependency>
 ```
-
-	or Gradle: 
+or Gradle: 
 - Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
