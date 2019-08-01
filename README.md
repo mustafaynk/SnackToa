@@ -76,7 +76,7 @@ Download the latest JAR or grab via Maven:
 </dependency>
 ```
 
-or Gradle: 
+	or Gradle: 
 - Add it in your root build.gradle at the end of repositories:
 ```
 allprojects {
