@@ -2,7 +2,7 @@
 Show message(Snackbar, Toast) in your application. Customization warning, information and success messages.
 
 <p align="center">
-  <img width="300" height="300" src="https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/logo.png">
+  <img width="40%" src="https://raw.githubusercontent.com/mustafaynk/SnackToa/master/preview/logo.png">
 </p>
 
 - Preview
