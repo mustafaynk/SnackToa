@@ -1,9 +1,8 @@
-package muyan.snacktoa;
+package muyan.snacktoa.example;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Toast;
 
 import muyan.snacktoa.SnackToa;
 
